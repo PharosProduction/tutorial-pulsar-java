@@ -35,7 +35,7 @@ public class PulsarConsumer {
   private Consumer<byte[]> mConsumer;
   private PulsarConsumerListener mListener;
 
-  // Consumer
+  // Constructor
 
   PulsarConsumer(String serviceUrl, String topicName) {
     mServiceUrl = serviceUrl;
